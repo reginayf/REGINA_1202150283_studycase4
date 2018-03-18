@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">StudyCaseModul4Regina</string>
+    <string-array name="mahasiswa">
+        <item>Mahasiswa 1</item>
+        <item>Mahasiswa 2</item>
+        <item>Mahasiswa 3</item>
+        <item>Mahasiswa 4</item>
+        <item>Mahasiswa 5</item>
+        <item>Mahasiswa 6</item>
+        <item>Mahasiswa 7</item>
+        <item>Mahasiswa 8</item>
+        <item>Mahasiswa 9</item>
+        <item>Mahasiswa 10</item>
+        <item>Mahasiswa 11</item>
+
+    </string-array>
+</resources>

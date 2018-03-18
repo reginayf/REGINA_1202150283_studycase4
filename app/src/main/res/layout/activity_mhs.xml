@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="com.example.regina.studycasemodul4regina.mhs"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:gravity="center_horizontal"
+        android:text="List Nama Mahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="loadmahasiswa"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:text="Mulai AsyncTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:id="@+id/list_namamahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
